@@ -1,6 +1,32 @@
-git add is used to ‘stage’ a file in preparation of committing
-git commit -m '<message>' is used to commit a snapshot of the staging area to the repo
-git push uploads our changes to the repo
-git pull is used to grab updates to the file from online and comibne them
-git fetch only checks the origin for updates
-git merge is used to combine two branches
+git init
+#creates a new local respository
+
+git clone
+#downloads an existing repository and its history
+
+git checkout <branch>
+#switches to branch and makes it the working directory
+
+git diff
+#shows the differences between two file versions
+
+git add
+#stages a file
+
+git reset
+#unstages a file but retains its content
+
+git commit -m '<message>'
+#is used to commit a snapshot of the staging area to the repository version history
+
+git push
+#uploads our changes to the origin repository
+
+git fetch
+#checks for updates in the origin
+
+git merge
+#combines two branches
+
+git pull
+#updates from origin and combines to current branch
