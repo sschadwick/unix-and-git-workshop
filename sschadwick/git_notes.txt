@@ -1,0 +1,6 @@
+git add is used to ‘stage’ a file in preparation of committing
+git commit -m '<message>' is used to commit a snapshot of the staging area to the repo
+git push uploads our changes to the repo
+git pull is used to grab updates to the file from online and comibne them
+git fetch only checks the origin for updates
+git merge is used to combine two branches
